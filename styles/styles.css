@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.top-third {
+    height: 25vh; /* This ensures the top third spacing */
+}
+
+#search, .display {
+    margin: 10px; /* Optional: add some margin to the children for spacing */
+}
+
+#testing {
+    width: 100%;
+    border: 1px solid black;
+    padding: 5%;
+    border-radius: 5%;
+}
+
+.inner-testing p {
+    padding: 2%;
+}
+
+.display {
+    width: 20%;
+}
+
+#show-data {
+    width: 100%;
+    
+}
